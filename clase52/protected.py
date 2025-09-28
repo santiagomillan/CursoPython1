@@ -17,5 +17,5 @@ class BaseClass:
 base = BaseClass()
 # print(base._protected_variable)  # Accessing protected variable
 # print(base._protected_method())   # Accessing protected method
-# base._protected_method()
+# base._protected_method()x
 print(base.__private_variable)  # Accessing private method through a public method
